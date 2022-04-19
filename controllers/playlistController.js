@@ -96,6 +96,52 @@ class Controller {
       next(error);
     }
   }
+
+  static async addFavorite(req, res, next) {
+    try {
+      const { id } = req.user;
+      const { title, imageUrl, spotifyUrl } = req.body;
+
+      if (!title || !imageUrl || !spotifyUrl) {
+        throw { name: "404" };
+      }
+
+      const data = {
+        UserId: id,
+        title,
+        imageUrl,
+        spotifyUrl,
+      };
+
+      const playlist = await Playlist.create(data);
+
+      res.status(201).json(playlist);
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  static async showFavorite(req, res, next) {
+    try {
+      const { id } = req.user;
+
+      const playlist = await Playlist.findAll({
+        include: [
+          {
+            model: User,
+            attributes: ["id", "email", "username", "city"],
+          },
+        ],
+        where: {
+          UserId: id,
+        },
+      });
+
+      res.status(201).json(playlist);
+    } catch (error) {
+      next(error);
+    }
+  }
 }
 
 module.exports = Controller;
