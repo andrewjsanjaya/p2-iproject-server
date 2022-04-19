@@ -11,4 +11,6 @@ router.use(authentication);
 
 router.get("/verification", Controller.getVerificationCode);
 
+router.patch("/verification", Controller.verifyCode);
+
 module.exports = router;

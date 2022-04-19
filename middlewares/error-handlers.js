@@ -24,6 +24,11 @@ function errorHandler(err, req, res, next) {
       statusCode: 401,
       error: { message: "Your Session Has Expired" },
     });
+  } else if (err.name === "Wrong Verification Code") {
+    res.status(406).json({
+      statusCode: 406,
+      error: { message: "Wrong Verification Code" },
+    });
   } else {
     console.log(err);
     res.status(500).json({
