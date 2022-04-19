@@ -1,5 +1,7 @@
 const { User } = require("../models");
 const { sendVerificationCode } = require("../helpers/verificationCode");
+const { readPassword } = require("../helpers/bcrypt");
+const { createToken } = require("../helpers/jwt");
 
 class Controller {
   static async register(req, res, next) {
@@ -19,6 +21,49 @@ class Controller {
       });
     } catch (error) {
       next(error);
+    }
+  }
+
+  static async login(req, res, next) {
+    try {
+      const { username, password } = req.body;
+
+      let user = await User.findOne({
+        where: {
+          username,
+        },
+      });
+
+      if (!user) {
+        user = await User.findOne({
+          where: {
+            email: username,
+          },
+        });
+
+        if (!user) {
+          throw { name: "401" };
+        }
+      }
+
+      const checkPassword = readPassword(password, user.password);
+
+      if (!checkPassword) {
+        throw { name: "401" };
+      }
+
+      const accessToken = createToken({ id: user.id });
+
+      res.status(200).json({
+        id: user.id,
+        access_token: accessToken,
+        username: user.username,
+        email: user.email,
+        city: user.city,
+        status: user.status,
+      });
+    } catch (err) {
+      next(err);
     }
   }
 }
