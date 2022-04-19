@@ -14,6 +14,11 @@ function errorHandler(err, req, res, next) {
       statusCode: 401,
       error: { message: "wrong email or password" },
     });
+  } else if (err.name === "Invalid Token") {
+    res.status(401).json({
+      statusCode: 401,
+      error: { message: "Invalid Token / Your Session Has Expired" },
+    });
   } else {
     console.log(err);
     res.status(500).json({
