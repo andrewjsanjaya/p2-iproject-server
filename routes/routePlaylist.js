@@ -7,4 +7,8 @@ router.use(authentication);
 
 router.get("/", Controller.playlist);
 
+router.get("/favorite", Controller.playlist);
+
+router.post("/favorite", Controller.addFavorite);
+
 module.exports = router;

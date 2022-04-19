@@ -9,6 +9,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Playlist.belongsTo(models.User);
     }
   }
   Playlist.init(
@@ -35,6 +36,14 @@ module.exports = (sequelize, DataTypes) => {
         validate: {
           notEmpty: { msg: "spotify link is required" },
           notNull: { msg: "spotify link is required" },
+        },
+      },
+      UserId: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        validate: {
+          notEmpty: { msg: "user is required" },
+          notNull: { msg: "user is required" },
         },
       },
     },
