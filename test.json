@@ -1,0 +1,576 @@
+{
+  "weather": "mist",
+  "music": {
+    "playlists": {
+      "totalCount": 1000,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DWYIlyW5yvFjI",
+            "name": "Ambient Shoegaze",
+            "description": "Beautiful noise: when Shoegaze goes Ambient. ",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706f0000000289c1adcda3d9d08ba71c3666",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1EQqkOPvHGajmW",
+            "name": "Indie Mix",
+            "description": "<a href=spotify:playlist:37i9dQZF1EIUqxJLAsBf4h>Of Monsters and Men</a>, <a href=spotify:playlist:37i9dQZF1EIVHIgLgO0vZC>Mando Diao</a>, <a href=spotify:playlist:37i9dQZF1EIVNX3XbvPimn>The Neighbourhood</a> and more",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://seed-mix-image.spotifycdn.com/v6/img/indie/4dwdTW1Lfiq0cM8nBAqIIz/en/default",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:3qyQ76WcXIIOINuGVLyoEp",
+            "name": "indie",
+            "description": "noice indie jams",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://mosaic.scdn.co/640/ab67616d00001e026e8b31b2e7cec192c603eeceab67616d00001e0288a4a43acf0d1901da9d2975ab67616d00001e029a4dc09074b48641690558c3ab67616d00001e029e1cfc756886ac782e363d79",
+                      "width": 640,
+                      "height": 640
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/300/ab67616d00001e026e8b31b2e7cec192c603eeceab67616d00001e0288a4a43acf0d1901da9d2975ab67616d00001e029a4dc09074b48641690558c3ab67616d00001e029e1cfc756886ac782e363d79",
+                      "width": 300,
+                      "height": 300
+                    },
+                    {
+                      "url": "https://mosaic.scdn.co/60/ab67616d00001e026e8b31b2e7cec192c603eeceab67616d00001e0288a4a43acf0d1901da9d2975ab67616d00001e029a4dc09074b48641690558c3ab67616d00001e029e1cfc756886ac782e363d79",
+                      "width": 60,
+                      "height": 60
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Maya Baki"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DX2Nc3B70tvx0",
+            "name": "Ultimate Indie",
+            "description": "The best in modern indie. Cover: Wet Leg",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706f0000000295eabfd4dc467226c1e8177c",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DWWEcRhUVtL8n",
+            "name": "Indie Pop",
+            "description": "New and approved indie pop. Cover: Maggie Rogers",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706f00000002330b0d807ede5de20742e2a3",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:playlist:37i9dQZF1DWUoqEG4WY6ce",
+            "name": "Indie Rock Road Trip",
+            "description": "Road trip tracks...",
+            "images": {
+              "items": [
+                {
+                  "sources": [
+                    {
+                      "url": "https://i.scdn.co/image/ab67706f0000000257a5ba0b3bc0f9b351147c32",
+                      "width": null,
+                      "height": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "owner": {
+              "name": "Spotify"
+            }
+          }
+        }
+      ]
+    },
+    "genres": {
+      "totalCount": 8,
+      "items": [
+        {
+          "data": {
+            "uri": "desi",
+            "name": "Desi",
+            "image": {
+              "sources": [
+                {
+                  "url": "https://t.scdn.co/images/878e1eda3d084a4584465626a8f7dd26.jpeg",
+                  "width": null,
+                  "height": null
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "indie_alt",
+            "name": "Indie",
+            "image": {
+              "sources": [
+                {
+                  "url": "https://t.scdn.co/images/fe06caf056474bc58862591cd60b57fc.jpeg",
+                  "width": null,
+                  "height": null
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:genre:0JQ5IMCbQBLsoclRO60jNO",
+            "name": "2010s Indie",
+            "image": {
+              "sources": [
+                {
+                  "url": "",
+                  "width": null,
+                  "height": null
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:genre:0JQ5IMCbQBLlF3RRwVEVBz",
+            "name": "Women of Indie",
+            "image": {
+              "sources": [
+                {
+                  "url": "",
+                  "width": null,
+                  "height": null
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:genre:0JQ5IMCbQBLAXZUC2d7sdT",
+            "name": "Indie Sleaze Era",
+            "image": {
+              "sources": [
+                {
+                  "url": "",
+                  "width": null,
+                  "height": null
+                }
+              ]
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:genre:0JQ5IMCbQBLxr2xXy5HJU3",
+            "name": "Plants Sprout 🌱 Indie Blooms 💐",
+            "image": {
+              "sources": [
+                {
+                  "url": "",
+                  "width": null,
+                  "height": null
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "tracks": {
+      "totalCount": 1000,
+      "items": [
+        {
+          "data": {
+            "uri": "spotify:track:6sBsBq53UJeJgnIOCAf4B5",
+            "id": "6sBsBq53UJeJgnIOCAf4B5",
+            "name": "Indie Pop Type Beat",
+            "albumOfTrack": {
+              "uri": "spotify:album:4CZ0omZhTJ5n5dd2dGXLGt",
+              "name": "Indie Pop Type Beat",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0276b4307af34bfc7359b3aab2",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000485176b4307af34bfc7359b3aab2",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27376b4307af34bfc7359b3aab2",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "4CZ0omZhTJ5n5dd2dGXLGt",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/4CZ0omZhTJ5n5dd2dGXLGt?si=OEzHNcGDScamscJWYKdhYQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:27foDL8SBDLivhZNlDsAza",
+                  "profile": {
+                    "name": "Billy Marchiafava"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "EXPLICIT"
+            },
+            "duration": {
+              "totalMilliseconds": 156800
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:5qHKN780BrTro85vsJv0t3",
+            "id": "5qHKN780BrTro85vsJv0t3",
+            "name": "bad guy",
+            "albumOfTrack": {
+              "uri": "spotify:album:0tHXTX23Dl3b5F0QAHJlpl",
+              "name": "Indie Party Playlist",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f7405d14a91f2284bdbad400",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851f7405d14a91f2284bdbad400",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f7405d14a91f2284bdbad400",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "0tHXTX23Dl3b5F0QAHJlpl",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/0tHXTX23Dl3b5F0QAHJlpl?si=IWBny779Qh6UCQHAkvkz7g"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH",
+                  "profile": {
+                    "name": "Billie Eilish"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 194087
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:0wYPM5pexJu96AClrozpIh",
+            "id": "0wYPM5pexJu96AClrozpIh",
+            "name": "Indie Rokkers",
+            "albumOfTrack": {
+              "uri": "spotify:album:6AccJKWLGTkv1KVFjZW4A8",
+              "name": "Time to Pretend",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02b5dcb50326f2a8e22cda985a",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851b5dcb50326f2a8e22cda985a",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273b5dcb50326f2a8e22cda985a",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "6AccJKWLGTkv1KVFjZW4A8",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/6AccJKWLGTkv1KVFjZW4A8?si=O02-75JgR_KoWdYmzDfKPQ"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:0SwO7SWeDHJijQ3XNS7xEE",
+                  "profile": {
+                    "name": "MGMT"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 265880
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:1n1SuF7pok2subhKZqAdvp",
+            "id": "1n1SuF7pok2subhKZqAdvp",
+            "name": "my boy",
+            "albumOfTrack": {
+              "uri": "spotify:album:0tHXTX23Dl3b5F0QAHJlpl",
+              "name": "Indie Party Playlist",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02f7405d14a91f2284bdbad400",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851f7405d14a91f2284bdbad400",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273f7405d14a91f2284bdbad400",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "0tHXTX23Dl3b5F0QAHJlpl",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/0tHXTX23Dl3b5F0QAHJlpl?si=IWBny779Qh6UCQHAkvkz7g"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH",
+                  "profile": {
+                    "name": "Billie Eilish"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 170852
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:2J22i5LmGyOmwUpuwE4uzd",
+            "id": "2J22i5LmGyOmwUpuwE4uzd",
+            "name": "Indie",
+            "albumOfTrack": {
+              "uri": "spotify:album:4i4Wwqx0lBwtTYhMZoRTg7",
+              "name": "Indie",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e0234ac1156a2b4147f188bf13d",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000485134ac1156a2b4147f188bf13d",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b27334ac1156a2b4147f188bf13d",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "4i4Wwqx0lBwtTYhMZoRTg7",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/4i4Wwqx0lBwtTYhMZoRTg7?si=8JYu6j4RSBmbU6iP_E0NmA"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:73trW4D0qMnAjlsg5tqhQx",
+                  "profile": {
+                    "name": "Nyan Blu"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 60929
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        },
+        {
+          "data": {
+            "uri": "spotify:track:3ZdYouySVrlIVQ02xYppj3",
+            "id": "3ZdYouySVrlIVQ02xYppj3",
+            "name": "Indie Movie Night 1",
+            "albumOfTrack": {
+              "uri": "spotify:album:6ACwD8FzGncRKqoFcPYxsr",
+              "name": "Indie Movie Night 1",
+              "coverArt": {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02950b727fa2ee7cd3c043e6c2",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00004851950b727fa2ee7cd3c043e6c2",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d0000b273950b727fa2ee7cd3c043e6c2",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              },
+              "id": "6ACwD8FzGncRKqoFcPYxsr",
+              "sharingInfo": {
+                "shareUrl": "https://open.spotify.com/album/6ACwD8FzGncRKqoFcPYxsr?si=glv6n2hKR8envBv857QPQw"
+              }
+            },
+            "artists": {
+              "items": [
+                {
+                  "uri": "spotify:artist:4iAJZ5zGec6SMu3zYVo5fE",
+                  "profile": {
+                    "name": "Robin Skies"
+                  }
+                }
+              ]
+            },
+            "contentRating": {
+              "label": "NONE"
+            },
+            "duration": {
+              "totalMilliseconds": 137821
+            },
+            "playability": {
+              "playable": true
+            }
+          }
+        }
+      ]
+    }
+  }
+}
