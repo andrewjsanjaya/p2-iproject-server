@@ -14,10 +14,15 @@ function errorHandler(err, req, res, next) {
       statusCode: 401,
       error: { message: "wrong email or password" },
     });
-  } else if (err.name === "Invalid Token") {
+  } else if (err.name === "Invalid Token" || err.name === "JsonWebTokenError") {
     res.status(401).json({
       statusCode: 401,
-      error: { message: "Invalid Token / Your Session Has Expired" },
+      error: { message: "Invalid Token" },
+    });
+  } else if (err.name === "TokenExpiredError") {
+    res.status(401).json({
+      statusCode: 401,
+      error: { message: "Your Session Has Expired" },
     });
   } else {
     console.log(err);

@@ -66,6 +66,20 @@ class Controller {
       next(err);
     }
   }
+
+  static async getVerificationCode(req, res, next) {
+    try {
+      const { username, email, id } = req.user;
+
+      sendVerificationCode(username, email, id);
+
+      res.status(200).json({
+        message: "email has been sent",
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
 }
 
 module.exports = Controller;

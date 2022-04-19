@@ -9,4 +9,6 @@ router.post("/login", Controller.login);
 
 router.use(authentication);
 
+router.get("/verification", Controller.getVerificationCode);
+
 module.exports = router;
