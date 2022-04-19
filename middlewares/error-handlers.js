@@ -9,6 +9,11 @@ function errorHandler(err, req, res, next) {
       statusCode: 400,
       error: { message: err },
     });
+  } else if (err.name === "401") {
+    res.status(401).json({
+      statusCode: 401,
+      error: { message: "wrong email or password" },
+    });
   } else {
     console.log(err);
     res.status(500).json({
