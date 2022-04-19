@@ -120,6 +120,28 @@ class Controller {
       next(error);
     }
   }
+
+  static async showFavorite(req, res, next) {
+    try {
+      const { id } = req.user;
+
+      const playlist = await Playlist.findAll({
+        include: [
+          {
+            model: User,
+            attributes: ["id", "email", "username", "city"],
+          },
+        ],
+        where: {
+          UserId: id,
+        },
+      });
+
+      res.status(201).json(playlist);
+    } catch (error) {
+      next(error);
+    }
+  }
 }
 
 module.exports = Controller;
