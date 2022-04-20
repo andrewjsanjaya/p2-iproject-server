@@ -89,7 +89,7 @@ class Controller {
       const { verificationCode } = req.body;
       const { username, email, id } = req.user;
 
-      const code = generateVerificationCode(username, email, id);
+      const code = generateVerificationCode(username, id);
 
       if (code !== verificationCode) {
         throw { name: "Wrong Verification Code" };
