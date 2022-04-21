@@ -91,6 +91,8 @@ class Controller {
 
       const code = generateVerificationCode(username, id);
 
+      console.log(code, verificationCode, "<<<<<<<<<<");
+
       if (code !== verificationCode) {
         throw { name: "Wrong Verification Code" };
       }
