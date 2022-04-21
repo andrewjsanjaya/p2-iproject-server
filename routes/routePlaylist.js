@@ -11,4 +11,6 @@ router.post("/favorite", Controller.addFavorite);
 
 router.get("/favorite", Controller.showFavorite);
 
+router.delete("/favorite", Controller.deleteFavorite);
+
 module.exports = router;

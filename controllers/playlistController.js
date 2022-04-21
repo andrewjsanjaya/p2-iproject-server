@@ -142,6 +142,23 @@ class Controller {
       next(error);
     }
   }
+
+  static async deleteFavorite(req, res, next) {
+    try {
+      const { title } = req.query;
+
+      await Playlist.destroy({
+        where: {
+          title,
+          UserId: req.user.id,
+        },
+      });
+
+      res.status(201).json({ message: "playlist removed" });
+    } catch (error) {
+      next(error);
+    }
+  }
 }
 
 module.exports = Controller;
